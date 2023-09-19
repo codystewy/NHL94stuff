@@ -11,13 +11,6 @@ This user script adds the coaches' names next to the team names on the NHL94 Onl
 4. Replace the existing template in the Tampermonkey editor with the copied script.
 5. Save the script.
 
-### Plain JavaScript Version
-1. Install a user script manager extension for your browser such as Tampermonkey.
-2. Click on the Tampermonkey extension icon and choose "Create a new script".
-3. Copy the contents of the [plain_js_append_coaches_name.user.js](plain_js_append_coaches_name.user.js) file.
-4. Replace the existing template in the Tampermonkey editor with the copied script.
-5. Save the script.
-
 ## Usage
 
 1. Navigate to the [NHL94 Online coach page](https://www.nhl94online.com/html/coachpage.php).
@@ -27,9 +20,8 @@ This user script adds the coaches' names next to the team names on the NHL94 Onl
 ## Notes
 
 - This user script is designed to work specifically on the NHL94 Online coach page.
-- The script uses either jQuery and XPath (for the jQuery version) or plain JavaScript and XPath (for the plain JavaScript version) to retrieve and manipulate the tables.
+- The script uses jQuery and XPath to retrieve and manipulate the tables.
 - The coach names are retrieved based on specific HTML structure assumptions. Modifying the script to work with changes to the page structure may require adjustments to the XPath selectors used.
-- These user scripts do not require any additional grants or permissions.
 
 ## License
 
