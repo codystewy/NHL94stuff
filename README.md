@@ -16,6 +16,13 @@ This user script adds the coaches' names next to the team names on the NHL94 Onl
 1. The script will automatically run when the page loads.
 1. The team names in the games table will be updated to include the respective coaches' names.
 
+### Images
+
+## Before Toggle
+![Before Toggle](images/NHL94-Before-Toggle.png)
+## After Toggle
+![Afrter Toggle](images/NHL94-After-Toggle.png)
+
 
 
 #### License
